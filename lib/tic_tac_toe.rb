@@ -52,7 +52,7 @@ class TicTacToe
       move(index, cp)
       display_board
     else
-      binding.pry 
+      binding.pry
       turn
     end
 
