@@ -1,3 +1,5 @@
+require 'pry'
+
 class TicTacToe
 
   def initialize
@@ -123,4 +125,4 @@ end
 
 
 game = TicTacToe.new
-game.play 
+game.play
