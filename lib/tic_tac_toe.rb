@@ -111,7 +111,7 @@ class TicTacToe
   end
 
   def play
-    puts "Please input X or O"
+    puts "Please input desired space #"
     turn until over?
     if winner
       puts  "Congratulations #{winner}!"
